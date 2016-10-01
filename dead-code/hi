@@ -1,0 +1,3 @@
+#!/bin/zsh
+
+aria2c --ftp-user=me_example.com --ftp-passwd=hunter2 $1
