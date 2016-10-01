@@ -24,11 +24,14 @@ To run the code you’ll want roughly these system packages:
 
 - libHDF5
 - imagemagick (:/)
+- libffi-dev
 
 These python libraries:
 
 - rasterio
 - netCDF
+- numpy
+- cffi
 
 And [rayg’s `himawari`](https://gitlab.ssec.wisc.edu/rayg/himawari).
 
