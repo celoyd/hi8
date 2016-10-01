@@ -2,3 +2,4 @@
 
 - @benelsen’s [wrap.sh](https://gist.github.com/benelsen/e8f53ceccc7104a1634cc05ed3368169), which defines the data’s projection.
 
+- [README_HimawariNetCDF_en](ftp://ftp.ptree.jaxa.jp/jma/README_HimawariNetCDF_en.txt) (needs a P-Tree FTP account) covers FTP paths and filenames.
