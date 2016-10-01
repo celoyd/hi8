@@ -2,7 +2,7 @@
 
 Tools for making animations from Himawari-8 P-Tree data.
 
-This is the workflow I’m using for new https://glittering.blue movies.
+This is the workflow I’m using for new https://glittering.blue movies. It’s overkill for most purposes: it downloads roughly 12 gigabytes per second of video. An easier method, with lower but still delightful image quality, is to download from the tiled PNG endpoint [as outlined in this gist](https://github.com/celoyd/hi8.git).
 
 Code here is late alpha quality at best! Documentation is probably wrong!
 
@@ -18,7 +18,7 @@ Todo: explain at least:
 
 ## Prerequisites
 
-To get data you’ll need to sign up at [the P-Tree Secretariat](http://www.eorc.jaxa.jp/ptree/registration_top.html). They are kind and hardworking people; don’t abuse their service. (A lot of the code can be adapted to use images from the simpler [tiled PNG endpoint](http://himawari8.nict.go.jp). The downloads are faster but the images are more quantized and the greens are off: see “The green thing” above.)
+To get data you’ll need to sign up at [the P-Tree Secretariat](http://www.eorc.jaxa.jp/ptree/registration_top.html). They are kind and hardworking people; don’t abuse their service.
 
 To run the code you’ll want roughly these system packages:
 
