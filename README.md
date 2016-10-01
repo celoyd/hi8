@@ -18,7 +18,7 @@ Todo: explain at least:
 
 ## Prerequisites
 
-To get data you’ll need to sign up at [the P-Tree Secretariat](http://www.eorc.jaxa.jp/ptree/registration_top.html). They are kind and hardworking people; don’t abuse their service. (A lot of the code can be adapted to run code from the simpler [tiled PNG endpoint](http://himawari8.nict.go.jp). The downloads are faster but the images are more quantized and the greens are off: see “The green thing” above.)
+To get data you’ll need to sign up at [the P-Tree Secretariat](http://www.eorc.jaxa.jp/ptree/registration_top.html). They are kind and hardworking people; don’t abuse their service. (A lot of the code can be adapted to use images from the simpler [tiled PNG endpoint](http://himawari8.nict.go.jp). The downloads are faster but the images are more quantized and the greens are off: see “The green thing” above.)
 
 To run the code you’ll want roughly these system packages:
 
