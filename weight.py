@@ -1,5 +1,10 @@
 #!/usr/bin/env python
 
+# weight.py input1.tif w1:w2 input2.tif output.tif
+# Make a weighted average of input{1,2}.tif (both single-band)
+# with weight per the w1:w2 ratio. Example:
+# weight.py green.tif 7:1 nir.tif synthesized-green.tif
+
 import rasterio as rio
 from sys import argv
 import numpy as np
