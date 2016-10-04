@@ -22,5 +22,7 @@ weighted = (
     (a*weight[0] + b*weight[1]) / (weight[0]+weight[1])
   ).astype(meta['dtype'])
 
+meta['compress'] = 'lzw'
+
 with rio.open(argv[4], 'w', **meta) as dst:
   dst.write(weighted, 1)
