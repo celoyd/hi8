@@ -10,7 +10,6 @@ import numpy as np
 
 scaleup_factor = 64
 
-
 band_number = int(argv[2])
 
 conversions = {
@@ -23,6 +22,11 @@ conversions = {
 with rio.open(argv[1]) as src:
   meta = src.meta
   dn = src.read(1)
+
+meta['dtype'] = np.uint16
+
+topleft = dn[0, 0]
+dn[np.where(dn == topleft)] = 0
 
 times = conversions[band_number]['scale_factor']
 plus = conversions[band_number]['add_offset']
