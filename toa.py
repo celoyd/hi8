@@ -24,6 +24,7 @@ with rio.open(argv[1]) as src:
   dn = src.read(1)
 
 meta['dtype'] = np.uint16
+meta['compress'] = 'lzw'
 
 topleft = dn[0, 0]
 dn[np.where(dn == topleft)] = 0
